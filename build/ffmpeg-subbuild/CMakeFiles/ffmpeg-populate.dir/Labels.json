@@ -1,0 +1,46 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/home/kalyan/Desktop/CPP_Projects/t2_memory_manager/build/ffmpeg-subbuild/CMakeFiles/ffmpeg-populate"
+		},
+		{
+			"file" : "/home/kalyan/Desktop/CPP_Projects/t2_memory_manager/build/ffmpeg-subbuild/CMakeFiles/ffmpeg-populate.rule"
+		},
+		{
+			"file" : "/home/kalyan/Desktop/CPP_Projects/t2_memory_manager/build/ffmpeg-subbuild/CMakeFiles/ffmpeg-populate-complete.rule"
+		},
+		{
+			"file" : "/home/kalyan/Desktop/CPP_Projects/t2_memory_manager/build/ffmpeg-subbuild/ffmpeg-populate-prefix/src/ffmpeg-populate-stamp/ffmpeg-populate-install.rule"
+		},
+		{
+			"file" : "/home/kalyan/Desktop/CPP_Projects/t2_memory_manager/build/ffmpeg-subbuild/ffmpeg-populate-prefix/src/ffmpeg-populate-stamp/ffmpeg-populate-mkdir.rule"
+		},
+		{
+			"file" : "/home/kalyan/Desktop/CPP_Projects/t2_memory_manager/build/ffmpeg-subbuild/ffmpeg-populate-prefix/src/ffmpeg-populate-stamp/ffmpeg-populate-download.rule"
+		},
+		{
+			"file" : "/home/kalyan/Desktop/CPP_Projects/t2_memory_manager/build/ffmpeg-subbuild/ffmpeg-populate-prefix/src/ffmpeg-populate-stamp/ffmpeg-populate-update.rule"
+		},
+		{
+			"file" : "/home/kalyan/Desktop/CPP_Projects/t2_memory_manager/build/ffmpeg-subbuild/ffmpeg-populate-prefix/src/ffmpeg-populate-stamp/ffmpeg-populate-patch.rule"
+		},
+		{
+			"file" : "/home/kalyan/Desktop/CPP_Projects/t2_memory_manager/build/ffmpeg-subbuild/ffmpeg-populate-prefix/src/ffmpeg-populate-stamp/ffmpeg-populate-configure.rule"
+		},
+		{
+			"file" : "/home/kalyan/Desktop/CPP_Projects/t2_memory_manager/build/ffmpeg-subbuild/ffmpeg-populate-prefix/src/ffmpeg-populate-stamp/ffmpeg-populate-build.rule"
+		},
+		{
+			"file" : "/home/kalyan/Desktop/CPP_Projects/t2_memory_manager/build/ffmpeg-subbuild/ffmpeg-populate-prefix/src/ffmpeg-populate-stamp/ffmpeg-populate-test.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"ffmpeg-populate"
+		],
+		"name" : "ffmpeg-populate"
+	}
+}

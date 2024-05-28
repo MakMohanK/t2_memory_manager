@@ -1,0 +1,46 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/home/kalyan/Desktop/CPP_Projects/t2_memory_manager/build/_deps/reylib-subbuild/CMakeFiles/reylib-populate"
+		},
+		{
+			"file" : "/home/kalyan/Desktop/CPP_Projects/t2_memory_manager/build/_deps/reylib-subbuild/CMakeFiles/reylib-populate.rule"
+		},
+		{
+			"file" : "/home/kalyan/Desktop/CPP_Projects/t2_memory_manager/build/_deps/reylib-subbuild/CMakeFiles/reylib-populate-complete.rule"
+		},
+		{
+			"file" : "/home/kalyan/Desktop/CPP_Projects/t2_memory_manager/build/_deps/reylib-subbuild/reylib-populate-prefix/src/reylib-populate-stamp/reylib-populate-install.rule"
+		},
+		{
+			"file" : "/home/kalyan/Desktop/CPP_Projects/t2_memory_manager/build/_deps/reylib-subbuild/reylib-populate-prefix/src/reylib-populate-stamp/reylib-populate-mkdir.rule"
+		},
+		{
+			"file" : "/home/kalyan/Desktop/CPP_Projects/t2_memory_manager/build/_deps/reylib-subbuild/reylib-populate-prefix/src/reylib-populate-stamp/reylib-populate-download.rule"
+		},
+		{
+			"file" : "/home/kalyan/Desktop/CPP_Projects/t2_memory_manager/build/_deps/reylib-subbuild/reylib-populate-prefix/src/reylib-populate-stamp/reylib-populate-update.rule"
+		},
+		{
+			"file" : "/home/kalyan/Desktop/CPP_Projects/t2_memory_manager/build/_deps/reylib-subbuild/reylib-populate-prefix/src/reylib-populate-stamp/reylib-populate-patch.rule"
+		},
+		{
+			"file" : "/home/kalyan/Desktop/CPP_Projects/t2_memory_manager/build/_deps/reylib-subbuild/reylib-populate-prefix/src/reylib-populate-stamp/reylib-populate-configure.rule"
+		},
+		{
+			"file" : "/home/kalyan/Desktop/CPP_Projects/t2_memory_manager/build/_deps/reylib-subbuild/reylib-populate-prefix/src/reylib-populate-stamp/reylib-populate-build.rule"
+		},
+		{
+			"file" : "/home/kalyan/Desktop/CPP_Projects/t2_memory_manager/build/_deps/reylib-subbuild/reylib-populate-prefix/src/reylib-populate-stamp/reylib-populate-test.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"reylib-populate"
+		],
+		"name" : "reylib-populate"
+	}
+}

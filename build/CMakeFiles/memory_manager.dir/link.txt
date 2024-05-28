@@ -1,0 +1,1 @@
+/usr/bin/g++  -g   CMakeFiles/memory_manager.dir/main.cpp.o  -o memory_manager  -Wl,-rpath,/home/kalyan/Desktop/CPP_Projects/t2_memory_manager/build/fmt-build fmt-build/libfmtd.so.7.0.0 -Wl,--as-needed 

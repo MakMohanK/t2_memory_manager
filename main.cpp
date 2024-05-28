@@ -5,6 +5,7 @@
 #include <fmt/color.h>
 #include <fmt/printf.h>
 #include <fmt/chrono.h>
+#include "memory_utils.h"
 using namespace std;
 using namespace fmt;
 
@@ -12,23 +13,27 @@ void show_memory()
 {
   fmt::memory_buffer buffer;
   fmt::format_to(buffer, "{0} {1}", "Buffer", "overflow");
+  fmt::format_to(buffer, " {0}", "More");
+  fmt::format_to(buffer, " {0}", "Data");
+  fmt::format_to(buffer, " {0}", "Appended");
+  fmt::format_to(buffer, " {0}", "Here");
+  fmt::print("Memory: {}\n", buffer.data());
   // instead of above line use below line.
-  //fmt::format_to(std::back_inserter(buffer), "{0} {1}", "Buffer", "overflow");
-
+  // fmt::format_to(std::back_inserter(buffer), "{0} {1}", "Buffer", "overflow");
 }
 
 void format_print(string msg, int code)
 {
 	auto msg1 = fmt::format("The answer is ", 42);
-	auto msg2 = "{0}{1}"_format(msg, 48);
+	// auto msg2 = "{0}{1}"_format(msg, 48);
 	fmt::print("{}\n", msg1);
-	fmt::print("{}\n", msg2);
+	// fmt::print("{}\n", msg2);
 }
 // Format into memory buffer and print
 void memorybuf_print()
 {
 	fmt::memory_buffer out;
-	format_to(out, "The answer is {0}", "42");
+	// format_to(out, "The answer is {0}", "42");
 	auto msg3 = string(out.begin(), out.end());
 	fmt::print("{}\n", msg3);
 }
@@ -49,7 +54,7 @@ void named_arg()
 void format_style(float format_code, float style_val )
 {
   fmt::printf("The answer is %.2f\n",format_code);
-	fmt::fprintf(cout, "The answer is %.2f\n",format_code);
+	// fmt::fprintf(cout, "The answer is %.2f\n",format_code);
 	fmt::fprintf(stdout, "The answer is %.2f\n", style_val);
   
   auto msg4 = fmt::sprintf("The answer is %.2f\n", style_val);
