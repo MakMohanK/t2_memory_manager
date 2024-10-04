@@ -1,5 +1,5 @@
 # t2_memory_manager
-PSMA Test Project Two
+Test Project Two
 
 # or a later release 10.2.1 -- error show line 18 
 # 8.0.0  warning message at line 18 
